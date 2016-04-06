@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row::after {
+  display: table;
+  clear: both;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+}
+.text-center {
+  text-align: center;
+}
+textarea {
+  width: 95%;
+  height: 500px;
+}
+button {
+  padding: 20px;
+}
